@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="item1"
+        android:icon="@drawable/ic_launcher_foreground">
+        <menu>
+            <item
+                android:id="@+id/item1.1"
+                android:title="item1.1" />
+            <item
+                android:id="@+id/item2.2"
+                android:title="item1.2" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="item2"
+        android:icon="@drawable/ic_launcher_foreground" />
+    <item
+        android:id="@+id/item3"
+        android:title="item3"
+        android:icon="@drawable/ic_launcher_foreground" />
+    <item
+        android:id="@+id/menu_spinner"
+        android:title="Spinner Option" />
+</menu>
